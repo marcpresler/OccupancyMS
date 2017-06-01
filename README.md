@@ -6,13 +6,13 @@ Created by Marc Presler, Martin Wuehr, Allon Klein, Elizabeth Van Itallie.
 # To run:
 -Download repository files and move to the same filepath of your choice. 
 
--Run script 'OccupancyCode_Superscript_v1', which calls the other necessary functions included in download. 
+-Run script 'OccupancyCode_Superscript_v1' using Matlab, which calls the other necessary functions included in the download. 
 
 -Sample data is provided in the file 'SampleFile_v1.xlsx.'
 
 -Follow instructions in the comments. In short, code requires the user to provide the MS data for matched unmodified and modified forms of a peptide in an excel file. The variables for the data columns for the unmodified and modified forms are specified, as well as the Gene Symbol and Site Position for labeling purposes. Be sure to specify confidence interval parameters in Section 2 (see tips!). 
 
--Output is a .xlsx file of occupancy. Filename with parameters is generated automatically  
+-Output is a .xlsx file of the estimated occupancy, the high and low bounds of the confidence intervals, as well as the original input data. Filename is records the parameters and input file use to generate the data along with the date.   
 
 # Visualizations 
 -Run with sample data to see the visualziations
@@ -21,7 +21,7 @@ Created by Marc Presler, Martin Wuehr, Allon Klein, Elizabeth Van Itallie.
 -Occupancy trend over conditions, as separate subplots or plotted together. 
 
 # Tips:
--Pseudocode for nonmatlab implementations are forthcoming.
+-May required Matlab 2014 or later. Pseudocode for nonmatlab implementations are forthcoming. 
 
 -For initial runs, limit the amount of bootstrapping iterations to 10-100 in Section 2, as the code is can be quite slow on most computers for larger datasets when using the recommended 1,000-10,000 iterations.
 
