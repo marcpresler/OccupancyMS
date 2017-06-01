@@ -1,14 +1,14 @@
 # OccupancyMS
-An algorithm to calculate the site stoichiometry of a phospho-sites or other modifications measured under multiple conditions with quantitative mass spectrometry. The approach for single sites is implemented in MATLAB for datasets of an arbitrary size. Similar code for multi-sites is forthcoming. 
+An algorithm to calculate the site stoichiometry of a phospho-sites (or other modifications) measured under multiple conditions with quantitative mass spectrometry and provide confidence intervals. The approach for single sites is implemented in MATLAB for datasets of an arbitrary size. Similar code for multi-sites is forthcoming. 
 
 Created by Marc Presler, Martin Wuehr, Allon Klein, Elizabeth Van Itallie. 
 
 # To run:
 -Download repository files and move to the same filepath of your choice. 
 
--Run script 'OccupancyCode_Superscript_v1', which calls the other necessary functions
+-Run script 'OccupancyCode_Superscript_v1', which calls the other necessary functions included in download. 
 
--Sample data is provided in the file 'SampleFile_v1.xlsx'
+-Sample data is provided in the file 'SampleFile_v1.xlsx.'
 
 -Follow instructions in the comments. In short, code requires the user to provide the MS data for matched unmodified and modified forms of a peptide in an excel file. The variables for the data columns for the unmodified and modified forms are specified, as well as the Gene Symbol and Site Position for labeling purposes. Be sure to specify confidence interval parameters in Section 2 (see tips!). 
 
