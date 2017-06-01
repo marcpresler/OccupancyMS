@@ -12,6 +12,14 @@ Created by Marc Presler, Martin Wuehr, Allon Klein, Elizabeth Van Itallie.
 
 -Follow instructions in the comments. In short, code requires the user to provide the MS data for matched unmodified and modified forms of a peptide in an excel file. The variables for the data columns for the unmodified and modified forms are specified, as well as the Gene Symbol and Site Position for labeling purposes. Be sure to specify confidence interval parameters in Section 2 (see tips!). 
 
+-Output is a .xlsx file of occupancy. Filename with parameters is generated automatically  
+
+# Visualizations 
+-Run with sample data to see the visualziations
+-The unmodified vs. modified plot over the conditions. The values at each of these species at each conditions are used to perform the regression. 
+-Regression plot with data, best fit, and confidence intervals (see tips!)
+-Occupancy trend over conditions, as separate subplots or plotted together. 
+
 # Tips:
 -Pseudocode for nonmatlab implementations are forthcoming.
 
@@ -19,5 +27,5 @@ Created by Marc Presler, Martin Wuehr, Allon Klein, Elizabeth Van Itallie.
 
 -For large datasets, set "plot_fitting_scatter' to 0 to avoid crashing matlab due to a graphics error. This functionality to most useful for visualizing the regression of a limited number of sites. 
 
--The data plotting functionality is compatable with large datasets, but may become impractical if the dataset exceeds 100 sites. 
+-The data plotting functionality is compatable with large datasets, but may become impractical if the dataset exceeds 100 sites. Make sure to adjust plotting parameters to reflect your data. 
 
