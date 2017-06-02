@@ -1,5 +1,5 @@
 # OccupancyMS
-An algorithm to calculate the site stoichiometry of a phospho-sites (or other modifications) measured under multiple conditions with quantitative mass spectrometry and provide confidence intervals. The approach for single sites is implemented in MATLAB for datasets of an arbitrary size. Similar code for multi-sites is forthcoming. 
+An algorithm to calculate the site stoichiometry of a phospho-sites (or other modifications) measured under multiple conditions with quantitative mass spectrometry and provide confidence intervals. The approach for single sites is implemented in MATLAB for datasets of an arbitrary size. The code for multi-sites will be posted shortly.  
 
 Created by Marc Presler, Martin Wuehr, Allon Klein, Elizabeth Van Itallie. 
 
@@ -24,7 +24,7 @@ Created by Marc Presler, Martin Wuehr, Allon Klein, Elizabeth Van Itallie.
 3) Occupancy trend over conditions, as separate subplots or plotted together. 
 
 # Tips:
-1) May required Matlab 2014 or later. Pseudocode for nonmatlab implementations are forthcoming. 
+1) May require Matlab 2014 or later. Pseudocode for nonmatlab implementations is forthcoming. 
 
 2) For initial runs, limit the amount of bootstrapping iterations to 10-100 in Section 2, as the code is can be quite slow on most computers for larger datasets when using the recommended 1,000-10,000 iterations.
 
