@@ -15,16 +15,16 @@ Created by Marc Presler, Martin Wuehr, Allon Klein, Elizabeth Van Itallie.
 4) Output is a .xlsx file of the estimated occupancy, the high and low bounds of the confidence intervals, as well as the original input data. Filename is records the parameters and input file use to generate the data along with the date.   
 
 # Visualizations 
--Run code with 'SampleFile_v1.xlsx' to see the following visualziations:
+-Run code with 'SampleFile_v1.xlsx' to see the following visualizations:
 
-1) The unmodified vs. modified plot over the conditions. The values at each of these species at each conditions are used to perform the regression. 
+1) Comparing the unmodified and modified plot over the conditions. In high quality data, the trends should be roughly reciprocal. The values at each of these species at each conditions are used to perform the regression. 
 
-2) Regression plot with data, best fit, and confidence intervals (see tips!)
+2) Regression plot showing the coordinates defined by the measured species, the best fit line, and confidence intervals (see tips!)
 
-3) Occupancy trend over conditions, as separate subplots or plotted together. 
+3) Occupancy trend over conditions, as separate subplots and plotted together. 
 
 # Tips:
-1) May require Matlab 2014 or later. Pseudocode for nonmatlab implementations is forthcoming. 
+1) May require Matlab 2014 or later. Pseudocode to assist in nonmatlab implementations is forthcoming. 
 
 2) For initial runs, limit the amount of bootstrapping iterations to 10-100 in Section 2, as the code is can be quite slow on most computers for larger datasets when using the recommended 1,000-10,000 iterations.
 
