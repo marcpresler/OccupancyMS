@@ -1,5 +1,5 @@
 # OccupancyMS
-An algorithm to calculate the site stoichiometry of a phospho-sites (or other modifications) measured under multiple conditions with quantitative mass spectrometry and provide confidence intervals. The approach for single sites is implemented in MATLAB for datasets of an arbitrary size. The proof of principle code for a three-dimensional case is included in the '3D' folder. 
+An algorithm to calculate the site stoichiometry of phosphosites (or other modifications) measured under multiple conditions with quantitative mass spectrometry and provide confidence intervals. The approach for single sites is implemented in MATLAB for datasets of an arbitrary size. The proof of principle code for a three-dimensional case is included in the '3D' folder. 
 
 Created by Marc Presler, Elizabeth Van Itallie, Martin Wuehr, Allon Klein. 
 
